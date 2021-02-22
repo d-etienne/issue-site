@@ -1,0 +1,236 @@
+/* overall content block styling */
+
+html, head, body {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.nav{
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    background-color: peru;
+    padding: 10px;
+    right: 20px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+
+}
+
+#content1, #content2{
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;  
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.footer {
+    box-sizing: border-box;
+    height: 100px;
+    margin-top: 50px;
+    width: 100%;
+    background-color: paleturquoise;
+    
+}
+
+/* title stylings */
+
+.topTitle {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 80px;
+    text-align: center;
+    letter-spacing: 10px;
+    margin-top: 50px;
+}
+
+#bottomTitle {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 80px;
+    text-align: center;
+    letter-spacing: 10px;
+    padding-bottom: 10px;
+}
+
+.pageTitle {
+    position: relative;
+    margin-top: 100px;
+    width: 90%;
+    height: 25px;
+    background-color: olive;
+    padding: 20px;
+    font-size: 2.5vh;
+    text-align: center;
+}
+
+.styleLines {
+    padding: 0px;
+    margin: 0px;
+    font-size: 2px;
+}
+
+/* image stylings */
+#imageBoxes {
+    margin-left: 50px;
+    margin-right: 20px;
+    
+}
+
+.pages {
+    box-sizing: border-box;
+    display: inline-block;
+    height: 550px;
+    width: 400px;
+    margin: 20px;
+    background-color: aqua;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    opacity: 1;
+}
+
+.pages .description{
+    position: relative;
+    height: 200px;
+    width: 250px;
+    margin-top: 100px;
+    margin-left: 60px;
+    opacity: 0;
+    background-color: rgba(240, 234, 234, 0);
+    /* background-color: purple; */
+    padding-top: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.pages:hover .description {
+    opacity: 1;
+    background-color: rgba(240, 234, 234, 0.555);
+    
+}
+
+/* .pages:visited {
+    opacity: 0;
+    background-color: red;
+} */
+
+.doubleImage {
+    /* box sizing & alignment */
+    vertical-align: top;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 400px;
+    height: 550px;
+    /* background-color: grey; */
+    position: relative;
+    padding-top: 50px;
+    
+}
+
+#pic1 {
+    width: 250px;
+    height: 300px;
+    background-color: navajowhite;
+    display: inline-block;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+#pic2 {
+    width: 250px;
+    height: 300px;
+    background-color:orange;
+    display: inline-block;
+    position: absolute;
+    left: 150px;
+    top: 200px;
+    right: 200px;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+#content2 #pic1, #content2 #pic2 {
+    box-shadow: -10px 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.bigImage {
+    /* box sizing & alignment */
+   vertical-align: top;
+   box-sizing: border-box;
+   display: inline-block;
+   width: 400px;
+   height: 550px;
+   box-shadow: -10px 10px 25px rgba(0, 0, 0, 0.25);
+   background-color: grey;
+  
+}
+
+#content1 .bigImage {
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+/* text stylings */
+.leftTxt {
+     /* box sizing & alignment */
+     box-sizing: border-box;
+     vertical-align: top;
+     display: inline-block;
+     width: 700px;
+     height: 550px;
+ 
+     /* margins & padding */
+     margin-left: 30px;
+     padding-right: 10px;
+     padding-left: 20px;
+     padding-top: 70px;
+
+     /* font sizing & alignment */
+    text-align: left;
+    font-size: 20px;
+    line-height: 50px;
+    /* background-color: palevioletred; */
+}
+
+.rightTxt {
+    /* box sizing & alignment */
+    box-sizing: border-box;
+    vertical-align: top;
+    display: inline-block;
+    width: 700px;
+    height: 550px;
+
+    /* margins & padding */
+    margin-right: 30px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 70px;
+
+    /* font sizing & alignment */
+    text-align: right;
+    font-size: 20px;
+    line-height: 50px;
+    /* background-color: palevioletred; */
+}
+
+.centerTxt {
+    /* box sizing & alignment */
+    box-sizing: border-box;
+    vertical-align: top;
+    display: inline-block;
+    width: 700px;
+    height: 550px;
+
+    /* margins & padding */
+    margin-right: 50px;
+    padding-left: 70px;
+    padding-right: 20px;
+    padding-top: 70px;
+
+    /* font sizing & alignment */
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+    /* background-color: palevioletred; */
+
+}
+
+
+
